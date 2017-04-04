@@ -1,0 +1,13 @@
+Hi Adam,
+
+Stucture file defines the run class so have a look at the variables in that we can use for plotting
+rates.py is the bit of code I made to determine the cooling rate.
+Don't worry too much about this, all the rates themselves (and all data) is stored in processeddata.p
+
+Plotting file is where the processed data is imported and some plots are made.
+The 'investigation' and 'all data' objects are just lists of run objects.
+
+Note for some of the variables stored in runs you need just the variable name e.g run.freezetemp
+Some are accessed as methods e.g run.coolingrate()
+Feel free to change the 'colour' method in Structure.py. At the moment its just blue for calibration,
+red otherwise. Not sure if that is helpful for plot.ly but it can be used as an internal method for assigning plot styles
